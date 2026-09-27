@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 import httpx
 
-HF_API = "https://api-inference.huggingface.co/models"
+HF_API = "https://router.huggingface.co/hf-inference/models"
 TOKEN = os.environ.get("HF_TOKEN", "")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
